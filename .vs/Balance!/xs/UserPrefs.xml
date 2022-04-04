@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{19199026-9695-DF01-0598-AA5273FD9BDB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Course Library/Scripts/CoinManager.cs">
+    <Files>
+      <File FileName="Assets/Course Library/Scripts/SpawnManager.cs" Line="29" Column="49" />
+      <File FileName="Assets/Course Library/Scripts/PlayerMovement.cs" Line="22" Column="85" />
+      <File FileName="Assets/Course Library/Scripts/CoinManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Balance!" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Course Library" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="CoinManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0f0466b-dbb0-4bce-b5e3-406778e162f7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
