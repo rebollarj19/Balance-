@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 {
+    public float bombWait = 5;
+    private float coinCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,14 @@ public class CoinManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Coins"))
+        {
+            Destroy(other.gameObject);
+            coinCount++;
+        }
     }
 }

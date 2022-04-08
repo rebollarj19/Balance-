@@ -23,11 +23,5 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(Vector3.right * verticalInput * rotationSpeed, Space.World);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("Coin"))
-        {
-            Destroy(other.gameObject);
-        }
-    }
+
 }
